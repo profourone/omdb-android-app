@@ -1,4 +1,6 @@
 buildscript {
+    apply from: 'versions.gradle'
+
     repositories {
         google()
         maven { url "https://jitpack.io" }
@@ -6,8 +8,8 @@ buildscript {
     }
 
     dependencies {
-        classpath "com.android.tools.build:gradle:7.0.4"
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
+        classpath "com.android.tools.build:gradle:${versions.gradle}"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlinGradlePlugin}"
     }
 }
 
