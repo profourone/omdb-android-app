@@ -1,4 +1,4 @@
-package com.profourone.omdb.feature
+package com.profourone.omdb.feature.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
