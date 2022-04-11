@@ -36,6 +36,14 @@ dependencies {
     implementation "com.google.dagger:hilt-android:${versions.hilt}"
     kapt "com.google.dagger:hilt-compiler:${versions.hilt}"
 
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:${versions.serialization}"
+
+    implementation "com.squareup.retrofit2:retrofit:${versions.retrofit}"
+    implementation "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:${versions.retrofitSerializationConverter}"
+
+    implementation "com.squareup.okhttp3:okhttp:${versions.okHttp}"
+    implementation "com.squareup.okhttp3:logging-interceptor:${versions.okHttp}"
+
     testImplementation "junit:junit:${versions.junit}"
     androidTestImplementation "androidx.test.ext:junit:${versions.testExtJunit}"
     androidTestImplementation "androidx.test.espresso:espresso-core:${versions.espresso}"
