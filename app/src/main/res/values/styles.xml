@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Toolbar styles -->
+    <style name="Widget.OMDb.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:layout_height">@dimen/default_toolbar_height</item>
+        <item name="android:minHeight">@dimen/default_toolbar_height</item>
+        <item name="titleCentered">true</item>
+        <item name="subtitleCentered">true</item>
+    </style>
+
+</resources>
