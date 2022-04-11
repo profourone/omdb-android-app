@@ -45,6 +45,8 @@ dependencies {
     implementation "com.squareup.okhttp3:okhttp:${versions.okHttp}"
     implementation "com.squareup.okhttp3:logging-interceptor:${versions.okHttp}"
 
+    implementation "androidx.paging:paging-runtime:${versions.paging}"
+
     testImplementation "junit:junit:${versions.junit}"
     androidTestImplementation "androidx.test.ext:junit:${versions.testExtJunit}"
     androidTestImplementation "androidx.test.espresso:espresso-core:${versions.espresso}"
