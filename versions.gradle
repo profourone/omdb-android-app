@@ -2,6 +2,7 @@ ext.versions = [
         // build
         gradle            : '7.0.4',
         kotlinGradlePlugin: '1.6.10',
+        hiltPlugin        : '2.38.1',
 
         compileSdk        : 31,
         minSdk            : 21,
@@ -19,6 +20,9 @@ ext.versions = [
         lifecycle         : '2.4.1',
         // navigation
         navigation        : '2.4.2',
+
+        // dependency injection
+        hilt              : '2.38.1',
 
         // test
         junit             : '4.13.2',
