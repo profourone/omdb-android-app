@@ -1,0 +1,7 @@
+<resources>
+    <string name="api_url">http://www.omdbapi.com</string>
+
+    <integer name="api_connect_timeout_seconds">30</integer>
+    <integer name="api_read_timeout_seconds">30</integer>
+    <integer name="api_write_timeout_seconds">30</integer>
+</resources>
