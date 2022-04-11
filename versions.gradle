@@ -24,6 +24,9 @@ ext.versions = [
         // dependency injection
         hilt              : '2.38.1',
 
+        // debugging
+        timber            : '4.7.1',
+
         // test
         junit             : '4.13.2',
         testExtJunit      : '1.1.3',
