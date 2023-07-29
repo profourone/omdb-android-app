@@ -6,6 +6,8 @@ plugins {
 }
 
 android {
+    namespace 'com.profourone.omdb.domain'
+
     compileSdk versions.compileSdk
 
     defaultConfig {
