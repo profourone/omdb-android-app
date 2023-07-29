@@ -4,6 +4,7 @@ ext.versions = [
         kotlinGradlePlugin            : '1.6.10',
         hiltPlugin                    : '2.38.1',
         detektGradlePlugin            : '1.22.0',
+        ktlintGradle                  : '11.5.0',
 
         compileSdk                    : 31,
         minSdk                        : 21,
