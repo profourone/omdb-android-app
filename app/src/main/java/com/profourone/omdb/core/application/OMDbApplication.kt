@@ -15,5 +15,4 @@ class OMDbApplication : Application() {
             Timber.plant(Timber.DebugTree())
         }
     }
-
 }

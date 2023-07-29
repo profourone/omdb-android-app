@@ -87,5 +87,4 @@ object NetworkModule {
     @Singleton
     fun providesJSONPlaceholderApi(retrofit: Retrofit): OMDbApi =
         retrofit.create(OMDbApi::class.java)
-
 }

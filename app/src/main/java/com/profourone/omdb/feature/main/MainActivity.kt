@@ -1,7 +1,7 @@
 package com.profourone.omdb.feature.main
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.profourone.omdb.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
