@@ -3,6 +3,7 @@ ext.versions = [
         gradle                        : '7.0.4',
         kotlinGradlePlugin            : '1.6.10',
         hiltPlugin                    : '2.38.1',
+        detektGradlePlugin            : '1.22.0',
 
         compileSdk                    : 31,
         minSdk                        : 21,
